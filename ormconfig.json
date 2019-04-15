@@ -1,9 +1,9 @@
 {
     "type": "mysql",
-    "host": "localhost",
+    "host": "47.100.227.22",
     "port": 3306,
     "username": "root",
-    "password": "123456",
+    "password": "mysqllangqin1228",
     "database": "rtcc",
     "entities": ["src/**/*.entity{.ts,.js}"],
     "synchronize": true
