@@ -10,13 +10,12 @@ async function bootstrap() {
     .setDescription('The cats API description')
     .setVersion('0.1')
     .addTag('cats')
+    .addTag('article')
     .build();
   const document = SwaggerModule.createDocument(app, options);
   SwaggerModule.setup('api', app, document);
 
-  await app.listen(8181, () => {
-    console.log('Nest application running on port 8181');
-  });
+  await app.listen(8181);
 }
 
 bootstrap();
