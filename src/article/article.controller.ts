@@ -4,8 +4,8 @@ import { ArticleSearchDto } from './dto/articleSearch.dto';
 import { Article } from './article.entity';
 import { ApiOperation, ApiResponse, ApiUseTags } from '@nestjs/swagger';
 
-@ApiUseTags('article')
-@Controller('article')
+@ApiUseTags('articles')
+@Controller('articles')
 export class ArticleController {
   constructor(private readonly articleService: ArticleService) {
   }
